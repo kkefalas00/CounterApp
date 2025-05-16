@@ -1,0 +1,33 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 100%;
+    height: auto;
+    color:lightskyblue;
+    text-align: center;
+    border: 0.5em;
+    border-color:chocolate;
+}
+
+.boxSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: auto;
+    margin-top: 2em;
+}
+
+.boxThird{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+    gap:1em;
+    font-size: large;
+}
