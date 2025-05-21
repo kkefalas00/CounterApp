@@ -1,8 +1,8 @@
 import styles from "./Input.module.css";
 
-const Input = ({...props}) => {
+const Input = ( {handleChange, ...props}) => {
     
-    return <input {...props} defaultValue={0}/>
+    return <input onKeyUp={handleChange} {...props}/>
 }
 
 export default Input;
